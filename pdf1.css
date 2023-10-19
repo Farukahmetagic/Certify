@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 148mm;
+    height: 105mm;
+}
+.container{
+    background-image: url('https://cdn.shopify.com/s/files/1/0729/2243/1833/files/target002.png?v=1697443552');
+    background-size: cover;
+    width: 148mm;
+    height: 105mm;
+    box-sizing: border-box;
+}
+td{
+    width: 74mm;
+}
+.warranty{
+    text-align: center;
+    font-size: 12pt;
+    color: #fff2ce;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10mm 4mm 0 4mm;
+}
+.note, .order-no, .order-date{
+    text-align: left;
+}
+.order-date, .order-no{
+    color: #d4b271;
+    font-family: 'Belleza', sans-serif;
+    font-size: 18px;
+}
+.order-no{
+    margin: 17mm 5mm 5mm 4mm;
+}
+.order-date{
+    margin-left: 4mm;
+    margin-bottom: 3mm;
+}
+.note{
+    color: #65081f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+    
+}
+.note p{
+    margin: 10mm 4mm 25mm 4mm;
+}
