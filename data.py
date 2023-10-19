@@ -2,7 +2,7 @@ import requests
 from dotenv import dotenv_values
 
 config = dotenv_values(".env")
-order_name = '#1122'
+order_name = input('Order name: ')
 language = ''
 order_data = {}
 
