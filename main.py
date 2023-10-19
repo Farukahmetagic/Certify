@@ -20,6 +20,6 @@ options = {
 }
 
 config = pdfkit.configuration(wkhtmltopdf='C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe')
-pdfkit.from_string(output_data, f'{data.order_data["order_no"]}-certifikat.pdf', configuration=config, options=options, css='pdf1.css')
+pdfkit.from_string(output_data, f'{data.order_data["order_no"]}-certifikat.pdf', configuration=config, options=options, css='pdf.css')
 
 

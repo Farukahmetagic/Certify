@@ -6,7 +6,6 @@ order_name = '#1122'
 language = ''
 order_data = {}
 
-#shop_url = "https://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:631ba24bc08a3b7a18da65dd63a91323@emaccessories-2244.myshopify.com/admin/api/2023-10"
 shop_url = config['SHOP_URL']
 
 def create_session():
